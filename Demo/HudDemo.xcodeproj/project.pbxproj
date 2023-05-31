@@ -461,6 +461,7 @@
 				CODE_SIGN_ENTITLEMENTS = HudDemo/HudDemo.entitlements;
 				COPY_PHASE_STRIP = YES;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudDemo/HudDemo_Prefix.pch;
 				INFOPLIST_FILE = HudDemo/Info.plist;
